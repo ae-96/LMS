@@ -8,5 +8,10 @@
   },
   "author": {
     "name": ""
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "joi": "^17.4.0",
+    "express": "^4.17.1"
   }
 }
