@@ -117,5 +117,5 @@ app.delete('/api/students/:id', (req, res) => {
     res.send(student);
 });
 app.listen(port, host, function () {
-    console.log("Server started);
+    console.log("Server started");
 });
