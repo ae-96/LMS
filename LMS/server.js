@@ -11,8 +11,8 @@ app.engine('html', require('ejs').renderFile);
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true })); 
 const courses = [
-    { id: 1, name: 'AI', code: 'cse999' },
-    { id: 2, name: 'DIP', description: 'digital image proccessing', code: 'cse888' },
+    { id: 1, name: 'software', code: 'cse999' },
+    { id: 2, name: 'image proccessing', description: 'digital image proccessing', code: 'cse888' },
     { id: 3, name: 'control' ,code: 'cse555'}
 ];
 function validateCourse(course) {
